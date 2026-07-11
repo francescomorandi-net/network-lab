@@ -1,0 +1,19 @@
+# Lab 01 - Initial Cisco Device Configuration
+
+## Objective 
+Perform the initial configuration of a Cisco device and prepare it for secure administartion and future network deployment
+
+## Topology
+(topolgy imagine)
+
+## Tecnologies
+- Cisco Device
+- Initial Configuration
+
+## Verification
+- show running-config
+- show startup-config
+
+## Key Takeaways
+This lab reinforces the importance of performing a correttion initial configuration before deploying a Cisco device in a network.
+A well-configured device is easier to manage, more secure and ready for future implementations.
