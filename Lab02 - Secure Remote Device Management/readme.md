@@ -6,7 +6,7 @@ Configure a Cisco device for secure remote administration by implementing local 
  - Lab01 - Initial Cisco Device Configuration
 
 ## Topology
-![Lab 02 Topology](Lab_01_Initial_Cisco_Device_Configuration.PNG)
+![Lab 02 Topology](Lab_02 _Secure_Remote_Device_Management.PNG)
 
 ## Tecnologies
 - Cisco Devices
