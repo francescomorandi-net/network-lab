@@ -14,6 +14,7 @@ Perform the initial configuration of a Cisco device and prepare it for secure ad
 ## Verification
 - show running-config
 - show startup-config
+- Ping Pc_admin to R1
 
 ## Key Takeaways
 This lab reinforces the importance of performing a correttion initial configuration before deploying a Cisco device in a network.
