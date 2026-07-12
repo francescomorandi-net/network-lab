@@ -4,7 +4,7 @@
 Perform the initial configuration of a Cisco device and prepare it for secure administartion and future network deployment.
 
 ## Topology
-(topolgy imagine)
+![Lab01 Topology](Lab 01 - Initial Cisco Device Configuration.PNG)
 
 ## Tecnologies
 - Cisco Devices
