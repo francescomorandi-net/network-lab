@@ -14,6 +14,7 @@ Perform the initial configuration of a Cisco device and prepare it for secure ad
 ## Verification
 - show running-config
 - show startup-config
+- show ip interface brief
 - Ping Pc_admin to R1
 
 ## Key Takeaways
