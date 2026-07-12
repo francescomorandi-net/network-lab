@@ -18,4 +18,4 @@ Configure a Cisco device for secure remote administration by implementing local 
 - Verify that Telnet access is diabled
 
 ## Key Takeaways
-This lab reinforces the imposrtance of securing remote access to a Cisco device. Implementing local authentication and SSH improves administrative security by protecting management sessions and preventing unauthorized access
+This lab reinforces the imposrtance of securing remote access to a Cisco device. Implementing local authentication and SSH improves administrative security by protecting management sessions and preventing unauthorized access.
