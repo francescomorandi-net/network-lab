@@ -21,4 +21,4 @@ Configure IPv4 addressing on a Cisco router and connected hosts to establish bas
 - Verify end-to-end connectivity (ping)
 
 ## Key Takeaways
-This lab reinforces the importance of proper IPv4 addressing and basic network connectivity. Correct IP addressing, subnet configurations and default gateway assignament are essential for successful communication between directly connect networks and provide the foundation for more advanced routing tecnologies.
+This lab reinforces the importance of proper IPv4 addressing and basic network connectivity. Correct IP addressing, subnet configuration and default gateway assignament are essential for successful communication between directly connect networks and provide the foundation for more advanced routing tecnologies.
