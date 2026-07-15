@@ -1,5 +1,5 @@
 
-# Lab 04 - IPv4 Addressing and Basic Connectivity
+# Lab 04 - Static Routing
 
 ## Objective 
 Configure static routes to enable communication between remote Ipv4 networks.
