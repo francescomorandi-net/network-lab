@@ -22,4 +22,4 @@ Configure static routes to enable communication between remote Ipv4 networks.
 - Verify end-to-end path (tracert)
 
 ## Key Takeaways
-This lab higlights the need for static routing to enable communication between remote Ipv4 networks. Properly configured static routes alloe routers to forward traffic beyond directly connected networks end provide a solid foundation for implementing more advanced dynamic routing protocols.
+This lab higlights the need for static routing to enable communication between remote Ipv4 networks. Properly configured static routes allow routers to forward traffic beyond directly connected networks and provide a solid foundation for implementing more advanced dynamic routing protocols.
