@@ -5,7 +5,7 @@
 Configure IPv4 addressing on a Cisco router and connected hosts to establish basic network connectivity between directly connect networks.
 
 ## Topology
-![Lab 03 Topology](Lab_03_IPv4_Addressing_and_Basic_Connectivity.PNG)
+![Lab 04 Topology](Lab_04_Static_Routing.PNG)
 
 ## Tecnologies
 - Cisco Devices
