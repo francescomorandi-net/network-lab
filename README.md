@@ -1,2 +1,2 @@
 # network-lab
-Cisco Packet Tracer  metworking labs, configurations and documentationcreated during my CCNA learning Journay
+Cisco Packet Tracer  networking labs, configurations and documentation created during my CCNA learning Journey
