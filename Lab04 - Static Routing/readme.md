@@ -1,8 +1,8 @@
 
-# Lab 03 - IPv4 Addressing and Basic Connectivity
+# Lab 04 - IPv4 Addressing and Basic Connectivity
 
 ## Objective 
-Configure IPv4 addressing on a Cisco router and connected hosts to establish basic network connectivity between directly connect networks.
+Configure static routes to enable communication between remote Ipv4 networks.
 
 ## Topology
 ![Lab 04 Topology](Lab_04_Static_Routing.PNG)
@@ -11,14 +11,15 @@ Configure IPv4 addressing on a Cisco router and connected hosts to establish bas
 - Cisco Devices
 - Cisco Ios
 - Ipv4 Addressing
-- Basic Connectivity
+- Static Routing
 
 ## Verification
 - show running-config
 - show startup-config
 - show ip interfaces brief
-- Show ip route
+- Show ip route (Verify presence "S" static routes)
 - Verify end-to-end connectivity (ping)
+- Verify end-to-end path (tracert)
 
 ## Key Takeaways
-This lab reinforces the importance of proper IPv4 addressing and basic network connectivity. Correct IP addressing, subnet configuration and default gateway assignament are essential for successful communication between directly connect networks and provide the foundation for more advanced routing tecnologies.
+This lab higlights the need for static routing to enable communication between remote Ipv4 networks. Properly configured static routes alloe routers to forward traffic beyond directly connected networks end provide a solid foundation for implementing more advanced dynamic routing protocols.
