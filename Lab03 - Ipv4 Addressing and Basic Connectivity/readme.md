@@ -7,7 +7,7 @@ Configure IPv4 addressing on a Cisco router and connected hosts to establish bas
 ## Topology
 ![Lab 03 Topology](Lab_03_IPv4_Addressing_and_Basic_Connectivity.PNG)
 
-## Tecnhologies
+## Technologies
 - Cisco Devices
 - Cisco IOS
 - Ipv4 Addressing
