@@ -7,9 +7,9 @@ Configure static routes to enable communication between remote Ipv4 networks.
 ## Topology
 ![Lab 04 Topology](Lab_04_Static_Routing.PNG)
 
-## Tecnologies
+## Tecnhologies
 - Cisco Devices
-- Cisco Ios
+- Cisco IOS
 - Ipv4 Addressing
 - Static Routing
 
