@@ -8,9 +8,9 @@ Configure a Cisco device for secure remote administration by implementing local 
 ## Topology
 ![Lab 02 Topology](Lab_02_Secure_Remote_Device_Management.PNG)
 
-## Tecnologies
+## Technologies
 - Cisco Devices
-- Cisco Ios
+- Cisco IOS
 - Secure Remote Administration
 
 ## Verification
