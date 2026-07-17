@@ -2,7 +2,7 @@
 
 ## Objective 
 Configure a Cisco device for secure remote administration by implementing local user authentication and SSH connetivity
- #### Prerquisites
+ #### Prerequisites
  - Lab01 - Initial Cisco Device Configuration
 
 ## Topology
