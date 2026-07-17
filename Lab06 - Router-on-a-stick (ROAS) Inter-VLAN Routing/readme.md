@@ -29,7 +29,7 @@ Althoug this asymmetrical design is not representative of a production environme
 - show ip interface brief
 - show ip route 
 - Verify end-to-end connectivity (ping)
-- Patch verification (traceroute) 
+- Path verification (traceroute) 
 ## Key Takeaways
 This lab demonstrates how Router-on-a-Stick (ROAS) enables Inter-VLAN Routing by providing Layer 3 connectivity between previously isolated VLANs over a single IEEE 802.1Q trunk link.
 It reinforces the relationship between VLANs, IP subnets, and default gateways, showing how proper Layer 3 routing allows communication while preserving Layer 2 segmentation.
