@@ -26,8 +26,9 @@ Althoug this asymmetrical design is not representative of a production environme
 - show interfaces status
 - show interfaces trunk
 - show vlan brief
-- Verify end-to-end connectivity (ping):
-    - Between hosts in the same VLAN
-    - To the intentionally misconfigured host to verify VLAN isolation
+- show ip interface brief
+- show ip route 
+- Verify end-to-end connectivity (ping)
+- Patch verification (traceroute) 
 ## Key Takeaways
 This lab demonstrates how VLANs logically segment Layer 2 networks and how IEEE 802.1Q trunking carries multiple VLANs across interconnected switches. It also reinforces Layer 2 security best practices and shows how an incorrect VLAN assignment prevents communication, even between hosts in the same IP subnet.
