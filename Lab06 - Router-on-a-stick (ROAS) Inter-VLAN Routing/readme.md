@@ -31,4 +31,5 @@ Althoug this asymmetrical design is not representative of a production environme
 - Verify end-to-end connectivity (ping)
 - Patch verification (traceroute) 
 ## Key Takeaways
-This lab demonstrates how VLANs logically segment Layer 2 networks and how IEEE 802.1Q trunking carries multiple VLANs across interconnected switches. It also reinforces Layer 2 security best practices and shows how an incorrect VLAN assignment prevents communication, even between hosts in the same IP subnet.
+This lab demonstrates how Router-on-a-Stick (ROAS) enables Inter-VLAN Routing by providing Layer 3 connectivity between previously isolated VLANs over a single IEEE 802.1Q trunk link.
+It reinforces the relationship between VLANs, IP subnets, and default gateways, showing how proper Layer 3 routing allows communication while preserving Layer 2 segmentation.
