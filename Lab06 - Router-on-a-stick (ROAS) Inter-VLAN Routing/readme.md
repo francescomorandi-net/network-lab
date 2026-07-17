@@ -1,11 +1,15 @@
 
 
-# Lab06 - Router-on-a-stick (ROAS) Inter-VLAN Routing
+# Lab06 - Router-on-a-Stick (ROAS) Inter-VLAN Routing
 
 ## Objective 
-The objective of this lab is to implement Inter-VLAN Routing using the Router-on-a-stick (ROAS) architecture. By configuring IEEE 802.1Q subinterfaces, the router provides Layer 3 connectivity between previosly isolated VLANs while preserving Layer 2 segmentation.
+The objective of this lab is to implement Inter-VLAN Routing using the Router-on-a-Stick (ROAS) architecture. By configuring IEEE 802.1Q subinterfaces, the router provides Layer 3 connectivity between previosly isolated VLANs while preserving Layer 2 segmentation.
 
-###Design note & Prerequisites
+### Design Note & Prerequisites
+Lab05 - VLANs and IEEE 802.1Q Trunking
+
+This topology has been intentionally preserved from the previous lab to clearly demonstrate the implementation of Router-on-a-Stick (ROAS).
+Althoug this asymmetrical design is not representative of a production environment, it effectively highlites the solution to the communication limitations introduced in the previous lab.
 
 
 ## Topology
@@ -14,12 +18,8 @@ The objective of this lab is to implement Inter-VLAN Routing using the Router-on
 ## Technologies
 - Cisco Devices
 - Cisco IOS
-- VLANs
-- IEEE 802.1Q Trunking
-    #### Configuration Highlights
-- Dedicated unused native VLAN
-- Restricted allowed VLAN list on the trunk
-- Intentional VLAN misconfiguration for connectivity testing
+- Router-on-a-Stick (ROAS)
+- Inter-VLAN Routing
 ## Verification
 - show running-config
 - show startup-config
