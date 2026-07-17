@@ -1,12 +1,12 @@
 
 
-# Lab 05 - VLANs and IEEE 802.1Q Trunking
+# Lab06 - Router-on-a-stick (ROAS) Inter-VLAN Routing
 
 ## Objective 
 Configure VLANs and IEEE 802.1Q trunking to extend Layer 2 connectivity across multiple switches, implement Layer 2 security best practices, and verify VLAN-based network segmentation.
 
 ## Topology
-![Lab 05 Topology](Lab_05_VLANs_and_IEEE_802.1Q_Trunking.PNG)
+![Lab 06 Topology](Lab_05_VLANs_and_IEEE_802.1Q_Trunking.PNG)
 
 ## Technologies
 - Cisco Devices
