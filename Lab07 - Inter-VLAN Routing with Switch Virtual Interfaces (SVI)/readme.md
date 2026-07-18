@@ -25,5 +25,5 @@ The objective of this lab is to implement Inter-VLAN Routing using Switch Vitura
 - Verify end-to-end connectivity (ping)
 - Path verification (traceroute) 
 ## Key Takeaways
-This lab demonstrates how Router-on-a-Stick (ROAS) enables Inter-VLAN Routing by providing Layer 3 connectivity between previously isolated VLANs over a single IEEE 802.1Q trunk link.
-It reinforces the relationship between VLANs, IP subnets, and default gateways, showing how proper Layer 3 routing allows communication while preserving Layer 2 segmentation.
+This lab demonstrates how Switch Virtual Interface (SVI) enables Inter-VLAN Routing eliminating the need for an external router.
+It reinforces the concepts of Layer 3 switching, default gateways, and logical network segmentation, while introducing a dedicated Management VLAN to separate infrastructure management traffic from user traffic whitin a more scalable enterprise-oriented network design.
