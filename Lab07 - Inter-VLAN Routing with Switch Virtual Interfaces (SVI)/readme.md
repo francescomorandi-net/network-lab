@@ -4,14 +4,7 @@
 # Lab07 - Inter-VLAN Routing with Switch Virtual Interfaces (SVI)
 
 ## Objective 
-The objective of this lab is to implement Inter-VLAN Routing using the Router-on-a-Stick (ROAS) architecture. By configuring IEEE 802.1Q subinterfaces, the router provides Layer 3 connectivity between previosly isolated VLANs while preserving Layer 2 segmentation.
-
-### Design Note & Prerequisites
-Lab05 - VLANs and IEEE 802.1Q Trunking
-
-This topology has been intentionally preserved from the previous lab to clearly demonstrate the implementation of Router-on-a-Stick (ROAS).
-Althoug this asymmetrical design is not representative of a production environment, it effectively highlites the solution to the communication limitations introduced in the previous lab.
-
+The objective of this lab is to implement Inter-VLAN Routing using Switch Vitural Interfaces (SVI) on a multilayer switch. By replacing the Router-on-a-Stick architecture with Layer 3 switching, the network adopts a more scalable and enterprise-oriented desgin while maintaining logical segmentation between VLANs. Additionally, a dedicated Management VLAN is introduced to separate infrastructure management traffic from user tarffic, preparing the network for future security and management implementations.
 
 ## Topology
 ![Lab 07 Topology](Lab_07_Inter-VLAN_Routing_with_Switch_Virtual_Interfaces_(SVI).PNG)
@@ -19,7 +12,7 @@ Althoug this asymmetrical design is not representative of a production environme
 ## Technologies
 - Cisco Devices
 - Cisco IOS
-- Router-on-a-Stick (ROAS)
+- Switch Virtual Interface (SVI)
 - Inter-VLAN Routing
 ## Verification
 - show running-config
