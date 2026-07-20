@@ -10,7 +10,7 @@ PortFast and BPDU Guard are also configured on all access interfaces to provide 
 Root Guard and Loop Guard are intentionally omitted, as their behavior to the limitations of the Cisco Packet Trace environment
 
 #### Prerequisites 
-Lab
+Lab07 - Inter-VLAN Routing with Switch Virtual Interfaces (SVI)
 
 ## Topology
 ![Lab 08 Topology](Lab_08_Rapid_PVST+_Best_Practices.PNG)
