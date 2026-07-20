@@ -5,7 +5,7 @@
 The objective of this lab is to implement Inter-VLAN Routing using Switch Virtual Interfaces (SVI) on a multilayer switch. By replacing the Router-on-a-Stick architecture with Layer 3 switching, the network adopts a more scalable and enterprise-oriented design while maintaining logical segmentation between VLANs. Additionally, a dedicated Management VLAN is introduced to separate infrastructure management traffic from user traffic, preparing the network for future security and management implementations.
 
 ## Topology
-![Lab 08 Topology](Lab_07_Inter-VLAN_Routing_with_Switch_Virtual_Interfaces_(SVI).PNG)
+![Lab 08 Topology](Lab_08_Rapid_PVST+_Best_Practices.PNG)
 
 ## Technologies
 - Cisco Devices
