@@ -9,7 +9,8 @@ In this lab, the Distribution Switch is intentionally configured as the Root Bri
 PortFast and BPDU Guard are also configured on all access interfaces to provide faster edge-port convergence and protect against accidental switch connections. Although Cisco IOsS commonly enables these features trought global configuration, Cisco Packet Tracer dos not concistency reproduce this behavior. For this reason, they are configured individually on each access interface troughout this lab. 
 Root Guard and Loop Guard are intentionally omitted, as their behavior to the limitations of the Cisco Packet Trace environment
 
-
+#### Prerequisites 
+Lab
 
 ## Topology
 ![Lab 08 Topology](Lab_08_Rapid_PVST+_Best_Practices.PNG)
