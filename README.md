@@ -1,33 +1,33 @@
 # Cisco CCNA Network Labs
 Welcome to my Cisco Networking laboratory repository.
 
-This project documents my pratical networking journey while studying for the Cisco CCNA (200-301) certification. Rather than collecting isolated configuration examples, the goal is to build a structured labs that reflect real-world enterprise networking concepts.
+This project documents my practical networking journey while studying for the Cisco CCNA (200-301) certification. Rather than collecting isolated configuration examples, the goal is to build a structured serie of labs that reflect real-world enterprise networking concepts.
 
-Each laboratory focuses on a specific networking technology and documents its final implementation, including the objectives, design notes, verifications step and key takeways.
+Each laboratory focuses on a specific networking technology and documents its final implementation, including the objectives, design notes, verification step and key takeaways.
 
 ## Repository Structure 
-Each laboratory is contained in its own folder and inludes:
-- Cisco Packet Tracer (.ptk) file containing the complete network topology and configuration.
-- Topology diagram illustrating the network achitecture used in the lab.
-- readme.md describing the lab objective, implemented technologies, verification steps,and key takeways.
+Each laboratory is contained in its own folder and includes:
+- Cisco Packet Tracer (.pkt) file containing the complete network topology and configuration.
+- Topology diagram illustrating the network architecture used in the lab.
+- readme.md describing the lab objective, implemented technologies, verification steps, and key takeways.
 
 ## Learning Path
 The laboratories in this repository are organized to progressively explore enterprise networking technologies.
 
-While some labs build upon previous implementations, others introduce or revisit specific technologies usingthe topology that best demonstrates the concept. This approach keeps each laboratory focused on demostrating a specific networking technology ehile avoiding unnecessary complexity.
+While some labs build upon previous implementations, others introduce or revisit specific technologies using the topology that best demonstrates the concept. This approach keeps each laboratory focused on demonstrating a specific networking technology while avoiding unnecessary complexity.
 
-The overall goal is to demostrate practical networking skills trough realistic, hands-on scenarios. Rather than relying on isolated  or overly simplified examples, each lab is designes to showcase a specific technology whitin a network architecture intended to reflect the design principles aand operation logic commonly found in real-world enterprise networks.
+The overall goal is to demonstrate practical networking skills through realistic, hands-on scenarios. Rather than relying on isolated  or overly simplified examples, each lab is designed to showcase a specific technology within a network architecture intended to reflect the design principles and operational logic commonly found in real-world enterprise networks.
 
 # Final Enterprise Project
-The learning path culminates in a fully self-designed enterprise network built entirely form scratch.
-The final project integratesthe tecnologies ecplored throughout the previous laboratories into realistic enterpise environment and represens the practical consolidation of mt CCNA knowledge and hands-on experince. 
+The learning path culminates in a fully self-designed enterprise network built entirely from scratch.
+The final project integrates the technologies explored throughout the previous laboratories into a realistic enterpise environment and represents the practical consolidation of my CCNA knowledge and hands-on experience. 
 
 ## Continuous development
-####This repository is continuously updated.
+#### This repository is continuously updated.
 
 This repository is continuously updated as additional laboratories are designed, documented, and published. Existing labs may also be refined over time to improve clarity, design, or documentation, ensuring the repository continues to reflect my practical networking experience.
 
-##Technologies
+## Technologies
 The repository progressively covers topics including:
 
 - IPv4 Addressing
@@ -64,12 +64,12 @@ The repository progressively covers topics including:
 
 ## Tools 
 - Cisco Packet Tracer
-- Cisco Ios
+- Cisco IOS
 - GitHub
 
-##  Project Philosofy 
+##  Project Philosophy 
 This repository is intended to document practical Cisco networking implementations through progressively structured laboratory scenarios.
 
-Each lab provides a fully configured Cisco Packet Tracer  project togheter whit coincise documentation describing its objective, design, choices ù, verification methods, and key takeways. The primary goal is to demostrate practical networking skills by implementing technologies whitin architectures inspired by real-world enterprise design principles.
+Each lab provides a fully configured Cisco Packet Tracer  project together with concise documentation describing its objectives, design choices, verification methods, and key takeaways. The primary goal is to demonstrate practical networking skills by implementing technologies within architectures inspired by real-world enterprise design principles.
 
-As the repository continues to grow, a future development goal is to complement these laboratories whit video walktrhroughs explaining the architectural decisions, configuration process, and networking concepts behind each implementation.
+As the repository continues to grow, a future development goal is to complement these laboratories with video walkthroughs explaining the architectural decisions, configuration process, and networking concepts behind each implementation.
