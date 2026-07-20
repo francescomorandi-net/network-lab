@@ -1,5 +1,5 @@
 # Cisco CCNA Network Labs
-Welcome to my Cisco Networking laboratory repository.
+Welcome to my Cisco CCNA Network Labs repository.
 
 This project documents my practical networking journey while studying for the Cisco CCNA (200-301) certification. Rather than collecting isolated configuration examples, the goal is to build a structured serie of labs that reflect real-world enterprise networking concepts.
 
