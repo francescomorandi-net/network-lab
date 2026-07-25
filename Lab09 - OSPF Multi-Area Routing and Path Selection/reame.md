@@ -2,7 +2,8 @@
 # Lab09 - OSPF Multi-Area and Path Selection
 
 ## Objective 
-Implement a production-oriented Rapid PVST+ configuration by selecting an appropriate Root Bridge, optimizing Layer 2 forwarding paths, and securing edge ports using PortFast and BPDU Guard, two of the most relevant STP features supported by Cisco Packet Tracer.
+Design and impement Multi-Area OSPF network to demonstrate route advertisment, path selection, and key OSPF routing behaviours
+
 ### Design Note
 Since this lab includes several advanced OSPF feautures working together, this Design Note highlights the main behaviors to observe while testing the topology.
 
