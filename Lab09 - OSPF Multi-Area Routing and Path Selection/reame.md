@@ -30,8 +30,10 @@ Lab08 - Lab0 8 Rapid PVST+ Best Practices
 ## Verification
 - show running-config
 - show startup-config
-- show spanning-tree
-- show spanning-tree interfaces <interface> details
-- show MAC address-table (confirm MAC learning and forwarding along the active Rapid PVST+ spanning tree)
+- show ip ospf database
+- show ip ospf neighbors
+- show ip interface brief
+- shwo ip interface
 - Verify end-to-end connectivity (ping)
+- 
 ## Key Takeaways
