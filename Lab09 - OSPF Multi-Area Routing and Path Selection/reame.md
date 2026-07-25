@@ -33,7 +33,9 @@ Lab08 - Lab0 8 Rapid PVST+ Best Practices
 - show ip ospf database
 - show ip ospf neighbors
 - show ip interface brief
-- shwo ip interface
+- show ip interface
+- show ip route
 - Verify end-to-end connectivity (ping)
-- 
+- Path verification (traceroute)
+  
 ## Key Takeaways
