@@ -16,7 +16,7 @@ In particular, this lab demostrates the following features:
 - **Passive Interface**. The interfaces connected to LANs, where no other OSPF routers are present, were configured as passive. This allows the networks to be advertised without sending unnecessary hello packets. This behaviour can be verified with "*show ip ospf interface*".
   
 #### Prerequisites 
-Lab08 - Inter-VLAN Routing with Switch Virtual Interfaces (SVI)
+Lab08 - Lab0 8 Rapid PVST+ Best Practices
 
 ## Topology
 ![Lab 08 Topology](Lab_08_Rapid_PVST+_Best_Practices.PNG)
