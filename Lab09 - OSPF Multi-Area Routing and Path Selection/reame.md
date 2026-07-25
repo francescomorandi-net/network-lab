@@ -40,3 +40,4 @@ Lab08 - Lab0 8 Rapid PVST+ Best Practices
 - Path verification (traceroute)
   
 ## Key Takeaways
+This lab was designed to demonstrate OSPF's decision-making process and help understand how the protocol works. It also shows how proper network design allowes the administrator to influence OSPF's behaviour, making routing decisions predictable and controlled.
