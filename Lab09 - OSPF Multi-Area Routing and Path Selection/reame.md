@@ -30,6 +30,7 @@ Lab08 - Lab0 8 Rapid PVST+ Best Practices
 ## Verification
 - show running-config
 - show startup-config
+- show ip protocols
 - show ip ospf database
 - show ip ospf neighbors
 - show ip interface brief
