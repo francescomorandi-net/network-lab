@@ -3,11 +3,17 @@
 
 ## Objective 
 Implement a production-oriented Rapid PVST+ configuration by selecting an appropriate Root Bridge, optimizing Layer 2 forwarding paths, and securing edge ports using PortFast and BPDU Guard, two of the most relevant STP features supported by Cisco Packet Tracer.
-#### Design Note
-By default, Rapid PVST+ elected an access switch as the Root Bridge based on the Lowest Bridge ID. 
-In this lab, the Distribution Switch is intentionally configured as the Root Bridge to create deterministic Layer 2 forwarding paths that better reflect an enterprise network design and simplify future troubleshooting.
-PortFast and BPDU Guard are also configured on all access interfaces to provide faster edge-port convergence and protect against accidental switch connections. Although Cisco IOS commonly enables these features through global configuration, Cisco Packet Tracer does not consistently reproduce this behavior. For this reason, they are configured individually on each access interface throughout this lab. 
-Root Guard and Loop Guard are intentionally omitted because their behavior cannot be consistently demonstrated due to the limitations of the Cisco Packet Tracer environment.
+### Design Note
+Since this lab includes several advanced OSPF feautures working together, this Design Note highlights the main behaviors to observe while testing the topology.
+
+The topology was designed for demostration purposes only, in order to show specific OSPF behaviors that would be difficult to observe in a small and simple network.
+
+In particular, this lab demostrates the following features:
+- **Intra-area route preference over inter-area routes**. To reach the 10.0.0.4 network, the OSPF costs were intentionally changed so that the path trough R3 (area1) has a lower metric than the path completely inside the Backcone Area. Even so, OSPF still prefers the intra-area path trough R1(10.0.0.2) or R2 (10.0.0.18), showing that the route type has higher priority than the matric alone.
+- **Equal-cost Multi-Patch (ECMP)**. The paths trough R1 and R2 were configured with the same total cost to reach the 10.0.0.4 network. As a result, the layer 3 switch SWDIST installs both routes in the routing table and perform load balancing. This behavior can be observed whit "*show ip route*" and can also be verified with "*traceroute*", which may display different paths depending on the route selected by OSPF.
+- **Default route advertisment**. The edge router R2 advertises a default route in the OSPF domain using "*default-information originate*", simulating access to an external network (WEB/Internet). NAT was intentionally non configured because it is not the goal of this lab and will be covered in a dedicated lab.
+- **Passive Interface**. The interfaces connected to LANs, where no other OSPF routers are present, were configured as passive. This allows the network to be advertised without sending unnecessary hello packets. This behaviour can be verified with "*show ip ospf interface*".
+  
 #### Prerequisites 
 Lab07 - Inter-VLAN Routing with Switch Virtual Interfaces (SVI)
 
