@@ -19,7 +19,11 @@ In particular, this lab demostrates the following features:
 Lab08 - Lab0 8 Rapid PVST+ Best Practices
 
 ## Topology
-![Lab 08 Topology](Lab_08_Rapid_PVST+_Best_Practices.PNG)
+### Overall Topologu
+![Lab 09 Overall Topology](Lab_08_Rapid_PVST+_Best_Practices.PNG)
+
+### Routing Topolgy (Detailed View)
+![Lab 09 Overall Topology](Lab_08_Rapid_PVST+_Best_Practices.PNG)
 
 ## Technologies
 - Cisco Devices
