@@ -24,9 +24,8 @@ Lab08 - Lab0 8 Rapid PVST+ Best Practices
 ## Technologies
 - Cisco Devices
 - Cisco IOS
-- Rapid PVST+
-- PortFast
-- BPDU Guard
+- IPV4
+- OSPFv2
   
 ## Verification
 - show running-config
