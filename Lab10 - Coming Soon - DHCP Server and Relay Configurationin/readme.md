@@ -12,7 +12,7 @@ Root Guard and Loop Guard are intentionally omitted because their behavior canno
 Lab07 - Inter-VLAN Routing with Switch Virtual Interfaces (SVI)
 
 ## Topology
-![Lab 08 Topology](Lab_08_Rapid_PVST+_Best_Practices.PNG)
+![Lab 10 Topology](Lab_08_Rapid_PVST+_Best_Practices.PNG)
 
 ## Technologies
 - Cisco Devices
