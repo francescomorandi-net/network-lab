@@ -2,12 +2,19 @@
 # Lab10 - Coming Soon - DHCP Server and Relay Configurationin
 
 ## Objective 
-Implement a production-oriented Rapid PVST+ configuration by selecting an appropriate Root Bridge, optimizing Layer 2 forwarding paths, and securing edge ports using PortFast and BPDU Guard, two of the most relevant STP features supported by Cisco Packet Tracer.
+Design and implement a centralized DHCP solution using a Cisco router as a DHCP server and Layer 3 SVIs as DHCP relay agents.
+
+The lab demonstrates dynamic IPv4 address assignment across multiple VLANs and verifies the Layer 3 reachability requirements between the DHCP server and relay agents.
 #### Design Note
-By default, Rapid PVST+ elected an access switch as the Root Bridge based on the Lowest Bridge ID. 
-In this lab, the Distribution Switch is intentionally configured as the Root Bridge to create deterministic Layer 2 forwarding paths that better reflect an enterprise network design and simplify future troubleshooting.
-PortFast and BPDU Guard are also configured on all access interfaces to provide faster edge-port convergence and protect against accidental switch connections. Although Cisco IOS commonly enables these features through global configuration, Cisco Packet Tracer does not consistently reproduce this behavior. For this reason, they are configured individually on each access interface throughout this lab. 
-Root Guard and Loop Guard are intentionally omitted because their behavior cannot be consistently demonstrated due to the limitations of the Cisco Packet Tracer environment.
+A dedicated Cisco router was configured as a centralized DHCP server, with separate DHCP pools for VLAN 10 and VLAN 20.
+
+Since the DHCP server is located on a different subnet from the clients, the VLAN 10 and VLAN 20 SVIs on the distribution switch were configured as DHCP relay agents using ip helper-address. This allows client DHCP broadcasts to be forwarded to the remote DHCP server and enables the complete DORA process across Layer 3 boundaries.
+
+The lab also verifies the role of the DHCP giaddr field. The relay inserts the address of the client-facing SVI into giaddr, allowing the DHCP server to identify the originating subnet and select the appropriate address pool.
+
+Packet analysis in Cisco Packet Tracer also showed the relay using the corresponding SVI address as the source IP when forwarding the DHCP message toward the server.
+
+To demonstrate the importance of bidirectional Layer 3 reachability, the DHCP process was initially tested without a return route from the DHCP server toward the client VLANs, causing the DHCP exchange to fail. A summarized static route (192.168.0.0/19) was then configured toward the relay, providing reachability to both VLAN 10 and VLAN 20 and allowing the DHCP process to complete successfully.
 #### Prerequisites 
 Lab07 - Inter-VLAN Routing with Switch Virtual Interfaces (SVI)
 
@@ -17,18 +24,18 @@ Lab07 - Inter-VLAN Routing with Switch Virtual Interfaces (SVI)
 ## Technologies
 - Cisco Devices
 - Cisco IOS
-- Rapid PVST+
-- PortFast
-- BPDU Guard
+- IPv4
+- DHCP Server
+- DHCP Relay
   
 ## Verification
 - show running-config
 - show startup-config
-- show spanning-tree
-- show spanning-tree interfaces <interface> details
-- show MAC address-table (confirm MAC learning and forwarding along the active Rapid PVST+ spanning tree)
-- Verify end-to-end connectivity (ping)
+- show DHCP pool
+- show DHCP binding
+- show ip route
+### Client verification
+- ipconfig /all
+- ipconfig /renew
 ## Key Takeaways
-This lab reinforces the importance of Rapid PVST+ in preventing Layer 2 loops while maintaining a predictable network topology.
-By manually selecting the Root Bridge and implementing PortFast and BPDU Guard on edge ports, I applied common enterprise best practices for both performance and security.
-The configuration was validated through STP verification commands, MAC address table analysis, and Cisco Packet Tracer Simulation Mode to observe Layer 2 frame forwarding behavior.
+This lab demonstrates how centralized DHCP services can provide dynamic IP addressing across multiple network segments through the use of DHCP relay. It also highlights the requirement for proper Layer 3 reachability between the DHCP server and relay agents, particularly in this architecture, where the relay forwards DHCP messages using the client-facing SVI address rather than the address of the interface directly connected to the DHCP server.
