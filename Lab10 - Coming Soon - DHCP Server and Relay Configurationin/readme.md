@@ -1,5 +1,5 @@
 
-# Lab08 - Rapid PVST+ Best Practices
+# Lab10 - Coming Soon - DHCP Server and Relay Configurationin
 
 ## Objective 
 Implement a production-oriented Rapid PVST+ configuration by selecting an appropriate Root Bridge, optimizing Layer 2 forwarding paths, and securing edge ports using PortFast and BPDU Guard, two of the most relevant STP features supported by Cisco Packet Tracer.
