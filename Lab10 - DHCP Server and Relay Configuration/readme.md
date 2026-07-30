@@ -1,5 +1,5 @@
 
-# Lab10 - Coming Soon - DHCP Server and Relay Configurationin
+# Lab10 - Coming Soon - DHCP Server and Relay Configuration
 
 ## Objective 
 Design and implement a centralized DHCP solution using a Cisco router as a DHCP server and Layer 3 SVIs as DHCP relay agents.
