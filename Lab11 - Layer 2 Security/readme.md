@@ -24,7 +24,7 @@ Lab10 - DHCP Server and Relay Configuration
 - Cisco IOS
 - IPv4
 - DHCP Snooping
-- Dynamic ARP Inspection(DAI)
+- Dynamic ARP Inspection (DAI)
 - Port Security
   
 ## Verification
