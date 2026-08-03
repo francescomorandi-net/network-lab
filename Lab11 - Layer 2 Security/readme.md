@@ -23,15 +23,19 @@ Lab10 - DHCP Server and Relay Configuration
 - Cisco Devices
 - Cisco IOS
 - IPv4
-- DHCP Server
-- DHCP Relay
+- DHCP Snooping
+- Dynamic ARP Inspection(DAI)
+- Port Security
   
 ## Verification
 - show running-config
 - show startup-config
-- show DHCP pool
-- show DHCP binding
-- show ip route
+- show ip dhcp snooping
+- show ip dhcp snooping binding
+- show ip arp inspection
+- show ip arp inspection interfaces
+- show port-security
+- show port-security interface
 ### Client verification
 - ipconfig /all
 - ipconfig /renew
