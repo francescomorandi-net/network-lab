@@ -32,7 +32,7 @@ Lab07 - Inter-VLAN Routing with Switch Virtual Interfaces (SVI)
 - show running-config
 - show startup-config
 - show ip dhcp pool
-- show ip chcp binding
+- show ip dhcp binding
 - show ip route
 ### Client verification
 - ipconfig /all
