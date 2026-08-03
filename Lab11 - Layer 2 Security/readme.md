@@ -17,7 +17,7 @@ As part of the Layer 2 hardening process, all unused switch interfaces were admi
 Lab10 - DHCP Server and Relay Configuration
 
 ## Topology
-![Lab 10 Topology](Lab10_DHCP_Server_and_Relay_Configuration.PNG)
+![Lab 10 Topology](Lab_11_Layer_2_Security.PNG)
 
 ## Technologies
 - Cisco Devices
