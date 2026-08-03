@@ -1,22 +1,20 @@
 
-# Lab10 - DHCP Server and Relay Configuration
+# Lab11 - Layer 2 Security
 
 ## Objective 
-Design and implement a centralized DHCP solution using a Cisco router as a DHCP server and Layer 3 SVIs as DHCP relay agents.
+Design and implement a secure Layer 2 access infrastructure by combining Cisco security features that protect against rogue DHCP servers, DHCP starvation attacks, ARP spoofing, and unauthorized network access.
 
-The lab demonstrates dynamic IPv4 address assignment across multiple VLANs and verifies the Layer 3 reachability requirements between the DHCP server and relay agents.
+The lab demonstrates how multiple Layer 2 security mechanisms can work together to strengthen the access layer while maintaining normal network operation for authorized devices.
 #### Design Note
-A dedicated Cisco router was configured as a centralized DHCP server, with separate DHCP pools for VLAN 10 and VLAN 20.
+DHCP Snooping was configured to allow DHCP messages only from trusted infrastructure ports while applying rate limiting on untrusted access ports to mitigate DHCP starvation attacks. Dynamic ARP Inspection was then implemented using the DHCP Snooping binding table to validate ARP traffic, providing protection against ARP spoofing attacks.
 
-Since the DHCP server is located on a different subnet from the clients, the VLAN 10 and VLAN 20 SVIs on the distribution switch were configured as DHCP relay agents using ip helper-address. This allows client DHCP broadcasts to be forwarded to the remote DHCP server and enables the complete DORA process across Layer 3 boundaries.
+During the implementation, particular attention was required regarding DHCP Option 82 (Relay Agent Information Option). When DHCP Snooping is enabled, access switches may insert Option 82 information into forwarded DHCP messages. Depending on the relay agent or DHCP server configuration, these packets may be accepted, ignored, or rejected. Since Option 82 was not required for this laboratory, it was disabled on the access switch to maintain interoperability with the existing DHCP relay implementation.
 
-The lab also verifies the role of the DHCP giaddr field. The relay inserts the address of the client-facing SVI into giaddr, allowing the DHCP server to identify the originating subnet and select the appropriate address pool.
+Port Security was configured using a maximum of one secure MAC address per access port. Sticky learning was used for dynamically addressed hosts, while the statically configured host was secured using a manually configured secure MAC address. The restrict violation mode was selected to block unauthorized devices while preserving normal operation for legitimate hosts and providing visibility of security violations.
 
-Packet analysis in Cisco Packet Tracer also showed the relay using the corresponding SVI address as the source IP when forwarding the DHCP message toward the server.
-
-To demonstrate the importance of bidirectional Layer 3 reachability, the DHCP process was initially tested without a return route from the DHCP server toward the client VLANs, causing the DHCP exchange to fail. A summarized static route (192.168.0.0/19) was then configured toward the relay, providing reachability to both VLAN 10 and VLAN 20 and allowing the DHCP process to complete successfully.
+As part of the Layer 2 hardening process, all unused switch interfaces were administratively disabled and assigned to an unused VLAN (VLAN 99), reducing the attack surface and preventing unauthorized network access.
 #### Prerequisites 
-Lab07 - Inter-VLAN Routing with Switch Virtual Interfaces (SVI)
+Lab10 - Server and Relay Configuration
 
 ## Topology
 ![Lab 10 Topology](Lab10_DHCP_Server_and_Relay_Configuration.PNG)
