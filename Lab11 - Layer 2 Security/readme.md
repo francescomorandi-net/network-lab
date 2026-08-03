@@ -40,5 +40,4 @@ Lab10 - DHCP Server and Relay Configuration
 - ipconfig /all
 - ipconfig /renew
 ## Key Takeaways
-This lab demonstrates how centralized DHCP services can provide dynamic IP addressing across multiple network segments through the use of DHCP relay. It also highlights the requirement for proper Layer 3 reachability between the DHCP server and relay agents, particularly in this architecture, where the relay forwards DHCP messages using the client-facing SVI address rather than the address of the interface directly connected to the DHCP server.
-
+This lab demonstrates how multiple Layer 2 security features work together to protect the access layer. DHCP Snooping establishes the trust model and binding table, Dynamic ARP Inspection validates ARP traffic using that information, and Port Security restricts unauthorized devices at the physical access port. The lab also highlights the importance of properly configuring DHCP Option 82 and trusted interfaces to ensure both security and interoperabilit
