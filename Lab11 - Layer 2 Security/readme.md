@@ -14,7 +14,7 @@ Port Security was configured using a maximum of one secure MAC address per acces
 
 As part of the Layer 2 hardening process, all unused switch interfaces were administratively disabled and assigned to an unused VLAN (VLAN 99), reducing the attack surface and preventing unauthorized network access.
 #### Prerequisites 
-Lab10 - Server and Relay Configuration
+Lab10 - DHCP Server and Relay Configuration
 
 ## Topology
 ![Lab 10 Topology](Lab10_DHCP_Server_and_Relay_Configuration.PNG)
