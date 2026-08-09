@@ -20,7 +20,7 @@ Lab08 - Rapid PVST+ Best Practices
 
 ## Topology
 ### Overall Topology
-![Lab 12 Overall Topology](Lab09_OSPF_Multi-Area_Routing_and_Path_Selection.PNG)
+![Lab 12 Overall Topology](Lab_12_Network_Access_Policies_whit_ACLs.PNG)
 
 ### Routing Topology (Detailed View)
 ![Lab 12 Details Policies](Lab09_OSPF_Multi-Area_Routing_and_Path_Selection_Routing_View.PNG)
