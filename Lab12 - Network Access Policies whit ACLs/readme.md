@@ -5,16 +5,16 @@
 Implement and verify network access policies using Standard and Extended ACLs within an existing OSPF multi-area topology, controlling communication between internal networks, access to specific services, and traffic to and from the Internet.
 
 ### Design Note
-- Policy 1 – Internet Anti-Spoofing
+- **Policy 1** – Internet Anti-Spoofing
 A Standard ACL was applied inbound on the Internet-facing interface to block traffic with source addresses belonging to the RFC1918 private address ranges. This provides basic anti-spoofing protection against packets entering the network with private source addresses that should not originate from the Internet.
 
-- Policy 2 – Restricted Network Internet Access
+- **Policy 2** – Restricted Network Internet Access
 Internet access from the Restricted Network (192.168.40.0/24) was denied through a Standard ACL applied outbound on the Internet-facing interface. This placement ensures that only Restricted Network traffic actually leaving the infrastructure is blocked, without having to explicitly exclude the multiple internal networks that must remain reachable.
 
-- Policy 3 – Network Isolation
+- **Policy 3** – Network Isolation
 Communication between the Users network (192.168.10.0/24) and the Restricted Network (192.168.40.0/24) was denied in both directions. The policy was distributed across the gateways of both networks, filtering unauthorized traffic close to each source. This prevents packets that will ultimately be dropped from unnecessarily traversing the shared routed infrastructure. This approach also reduces dependency on a single filtering point: if one of the two ACLs were removed, the other would still prevent bidirectional communication from being successfully completed between the two networks. However, this does not provide complete redundancy, since unidirectional traffic could still reach the opposite network.
 
-- Policy 4 – Service Access Control
+- **Policy 4** – Service Access Control
 Access from the Users network (192.168.10.0/24) to the remote server was restricted to HTTP, HTTPS, DNS, and ICMP. All other traffic from the Users network toward the server is denied, while traffic not affected by this policy remains permitted.
 
 - Stateful Firewall Consideration
