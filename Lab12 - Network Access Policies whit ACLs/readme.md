@@ -27,7 +27,7 @@ No mirrored ACL was implemented on the server side to filter return traffic towa
 To test Policy 1 – Internet Anti-Spoofing without adding additional external networks to the topology, loopback interfaces using RFC1918 private address ranges were configured on the router simulating the Internet. During tracert testing, non-intuitive hop sequences were observed due to OSPF ECMP paths with equal cost but different hop counts, which can cause successive probes to follow different paths. Despite this behavior, the test produced the expected result, confirming that the anti-spoofing policy was operating correctly.
   
 #### Prerequisites 
-Lab08 - Rapid PVST+ Best Practices
+Lab09 - Rapid PVST+ Best Practices
 
 ## Topology
 ### Overall Topology
