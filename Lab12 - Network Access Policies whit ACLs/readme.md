@@ -1,5 +1,5 @@
 
-# Lab09 - OSPF Multi-Area and Path Selection
+# Lab12 - Network Access Policies whit ACLs
 
 ## Objective 
 Design and implement Multi-Area OSPF network to demonstrate route advertisement, path selection, and key OSPF routing behaviours
