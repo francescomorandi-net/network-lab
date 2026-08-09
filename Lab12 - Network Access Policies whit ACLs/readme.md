@@ -27,7 +27,7 @@ No mirrored ACL was implemented on the server side to filter return traffic towa
 To test Policy 1 – Internet Anti-Spoofing without adding additional external networks to the topology, loopback interfaces using RFC1918 private address ranges were configured on the router simulating the Internet. During tracert testing, non-intuitive hop sequences were observed due to OSPF ECMP paths with equal cost but different hop counts, which can cause successive probes to follow different paths. Despite this behavior, the test produced the expected result, confirming that the anti-spoofing policy was operating correctly.
   
 #### Prerequisites 
-Lab09 - Rapid PVST+ Best Practices
+Lab09 - OSPF Multi-Area Routing and Path Selection
 
 ## Topology
 ### Overall Topology
@@ -53,5 +53,6 @@ Lab09 - Rapid PVST+ Best Practices
 - Path verification (traceroute)
   
 ## Key Takeaways
-This lab was designed to demonstrate OSPF's decision-making process and help understand how the protocol works. It also shows how proper network design allows the administrator to influence OSPF's behaviour, making routing decisions predictable and controlled.
+ACL placement and direction are as important as ACL configuration, as they determine where traffic is filtered and how efficiently security policies are enforced. Standard and Extended ACLs provide different levels of control: Standard ACLs filter traffic based on source addresses, while Extended ACLs allow more granular filtering based on source, destination, protocol, and service. Traditional ACLs are stateless and have limitations when applying mirrored controls to client-server traffic. In this lab, no ACL was implemented on the server side toward VLAN 10 because responses to client-initiated connections are directed to ephemeral ports that cannot be known in advance. A stateful control, as provided by a firewall, would instead dynamically allow traffic belonging to previously established sessions. When multiple security policies must be enforced on the same interface and in the same direction, their rules must be combined into a single ACL.
 
+N.B. – Multipath Routing: In multipath environments, traceroute results require careful interpretation, as successive probes may follow different paths and produce non-intuitive hop sequences. Such behavior does not necessarily indicate a routing or connectivity issue; in this lab, despite the unusual traceroute output, traffic behavior and policy enforcement operated as expected.
