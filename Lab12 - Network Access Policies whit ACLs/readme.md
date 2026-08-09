@@ -2,7 +2,7 @@
 # Lab12 - Network Access Policies whit ACLs
 
 ## Objective 
-Design and implement Multi-Area OSPF network to demonstrate route advertisement, path selection, and key OSPF routing behaviours
+Implement and verify network access policies using Standard and Extended ACLs within an existing OSPF multi-area topology, controlling communication between internal networks, access to specific services, and traffic to and from the Internet.
 
 ### Design Note
 Since this lab includes several advanced OSPF features working together, this Design Note highlights the main behaviors to observe while testing the topology.
