@@ -41,15 +41,13 @@ Lab08 - Rapid PVST+ Best Practices
 - Cisco IOS
 - IPv4
 - OSPFv2
+- Named Standard/Extended ACLs
   
 ## Verification
 - show running-config
 - show startup-config
-- show ip protocols
-- show ip ospf database
-- show ip ospf neighbor
-- show ip ospf interface brief
-- show ip ospf interface
+- show ip access-list
+- show ip interface
 - show ip route
 - Verify end-to-end connectivity (ping)
 - Path verification (traceroute)
