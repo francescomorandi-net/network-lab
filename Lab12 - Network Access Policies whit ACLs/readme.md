@@ -20,10 +20,10 @@ Lab08 - Rapid PVST+ Best Practices
 
 ## Topology
 ### Overall Topology
-![Lab 09 Overall Topology](Lab09_OSPF_Multi-Area_Routing_and_Path_Selection.PNG)
+![Lab 12 Overall Topology](Lab09_OSPF_Multi-Area_Routing_and_Path_Selection.PNG)
 
 ### Routing Topology (Detailed View)
-![Lab 09 Routing Topology](Lab09_OSPF_Multi-Area_Routing_and_Path_Selection_Routing_View.PNG)
+![Lab 12 Details Policies](Lab09_OSPF_Multi-Area_Routing_and_Path_Selection_Routing_View.PNG)
 
 ## Technologies
 - Cisco Devices
