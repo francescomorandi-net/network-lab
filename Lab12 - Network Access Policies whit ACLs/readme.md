@@ -12,10 +12,10 @@ Lab08 - Rapid PVST+ Best Practices
 
 ## Topology
 ### Overall Topology
-![Lab 12 Overall Topology](Lab12_Network_Access_Policies_whit_ACLs.PNG)
+![Lab 12 Overall Topology](Lab12_Network_Access_Policies_whit_ACLs.png)
 
 ### Details Policies
-![Lab 12 Details Policies](Lab12_Network_Access_Policies_whit_ACLs_details_policies.PNG)
+![Lab 12 Details Policies](Lab12_Network_Access_Policies_whit_ACLs_details_policies.png)
 
 ## Technologies
 - Cisco Devices
