@@ -31,7 +31,7 @@ Lab09 - OSPF Multi-Area Routing and Path Selection
 
 ## Topology
 ### Overall Topology
-![Lab 12 Overall Topology](Lab12_Network_Access_Policies_whit_ACLs.png)
+![Lab 12 Overall Topology](Lab12_Network_Access_Policies_with_ACLs.png)
 
 ### Details Policies
 ![Lab 12 Details Policies](Lab12_Network_Access_Policies_whit_ACLs_details_policies.png)
