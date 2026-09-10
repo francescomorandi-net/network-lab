@@ -16,7 +16,7 @@ Cisco Packet Tracer is required to open and run the .pkt laboratory files includ
 
 <u>Cisco Packet Tracer can be downloaded free of charge from the official Cisco Networking Academy website after creating or signing in to a free Cisco account.</u>
 
-Download Cisco Packet Tracer: https://www.netacad.com/articles/news/download-cisco-packet-tracer
+[Download Cisco Packet Tracer](https://www.netacad.com/articles/news/download-cisco-packet-tracer)
 
 ## Learning Path
 The laboratories in this repository are organized to progressively explore enterprise networking technologies.
