@@ -25,7 +25,7 @@ Descriptive ACL and NAT pool names are also used to make the relationship betwee
 #### Prerequisites 
 Lab12 - Network Access Policies with ACLs
 ## Topology
-![Lab 13 Topology](Lab_11_Layer_2_Security.PNG)
+![Lab 13 Topology](Lab13_IPv4_Address_Translation_NAT_PAT.png)
 
 ## Technologies
 - Cisco Devices
