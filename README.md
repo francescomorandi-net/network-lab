@@ -67,9 +67,9 @@ The repository progressively covers topics including:
 - Cisco IOS
 - GitHub
 
-##  Project Philosophy 
+## Project Philosophy 
 This repository is intended to document practical Cisco networking implementations through progressively structured laboratory scenarios.
 
-Each lab provides a fully configured Cisco Packet Tracer  project together with concise documentation describing its objectives, design choices, verification methods, and key takeaways. The primary goal is to demonstrate practical networking skills by implementing technologies within architectures inspired by real-world enterprise design principles.
+Each lab provides a fully configured Cisco Packet Tracer project together with concise documentation describing its objectives, design choices, verification methods, and key takeaways. The primary goal is to demonstrate practical networking skills by implementing technologies within architectures inspired by real-world enterprise design principles.
 
 As the repository continues to grow, a future development goal is to complement these laboratories with video walkthroughs explaining the architectural decisions, configuration process, and networking concepts behind each implementation.
