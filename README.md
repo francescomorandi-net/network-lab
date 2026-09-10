@@ -1,22 +1,22 @@
 # Cisco CCNA Network Labs
 Welcome to my Cisco CCNA Network Labs repository.
 
-This project documents my practical networking journey while studying for the Cisco CCNA (200-301) certification. Rather than collecting isolated configuration examples, the goal is to build a structured serie of labs that reflect real-world enterprise networking concepts.
+This project documents my practical networking journey while studying for the Cisco CCNA (200-301) certification. Rather than collecting isolated configuration examples, the goal is to build a structured series of labs that reflect real-world enterprise networking concepts.
 
-Each laboratory focuses on a specific networking technology and documents its final implementation, including the objectives, design notes, verification step and key takeaways.
+Each laboratory focuses on a specific networking technology and documents its final implementation, including the objectives, design notes, verification steps and key takeaways.
 
 ## Repository Structure 
 Each laboratory is contained in its own folder and includes:
 - Cisco Packet Tracer (.pkt) file containing the complete network topology and configuration.
 - Topology diagram illustrating the network architecture used in the lab.
-- readme.md describing the lab objective, implemented technologies, verification steps, and key takeways.
+- readme.md describing the lab objective, implemented technologies, verification steps, and key takeaways.
 
 ## Learning Path
 The laboratories in this repository are organized to progressively explore enterprise networking technologies.
 
 While some labs build upon previous implementations, others introduce or revisit specific technologies using the topology that best demonstrates the concept. This approach keeps each laboratory focused on demonstrating a specific networking technology while avoiding unnecessary complexity.
 
-The overall goal is to demonstrate practical networking skills through realistic, hands-on scenarios. Rather than relying on isolated  or overly simplified examples, each lab is designed to showcase a specific technology within a network architecture intended to reflect the design principles and operational logic commonly found in real-world enterprise networks.
+The overall goal is to demonstrate practical networking skills through realistic, hands-on scenarios. Rather than relying on isolated or overly simplified examples, each lab is designed to showcase a specific technology within a network architecture intended to reflect the design principles and operational logic commonly found in real-world enterprise networks.
 
 # Final Enterprise Project
 The learning path culminates in a fully self-designed enterprise network built entirely from scratch.
