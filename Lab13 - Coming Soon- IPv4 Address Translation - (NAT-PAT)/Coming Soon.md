@@ -23,8 +23,7 @@ NAT classification was intentionally designed to avoid unnecessary overlapping m
 Descriptive ACL and NAT pool names are also used to make the relationship between traffic classification and translation policy easier to identify.
 
 #### Prerequisites 
-Lab09 - OSPF Multi-Area Routing and Path Selection
-
+Lab12 - Network Access Policies with ACLs
 ## Topology
 ### Overall Topology
 ![Lab 12 Overall Topology](Lab12_Network_Access_Policies_with_ACLs.png)
