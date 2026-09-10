@@ -9,7 +9,7 @@ Il progetto integra in un'unica infrastruttura numerose tecnologie e servizi aff
 
 ## Topologia e Bozza
 
-###Topologia
+### Topologia
 ![Lab 19 Topologia](Lab12_Network_Access_Policies_with_ACLs.png)
 
 ### Bozza implementazioni
