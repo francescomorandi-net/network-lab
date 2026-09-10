@@ -46,7 +46,9 @@ Lab12 - Network Access Policies with ACLs
 - Generate traffic across NAT boundary to verify translation (ping)
   
 ## Key Takeaways
-ACL placement and direction are as important as ACL configuration, as they determine where traffic is filtered and how efficiently security policies are enforced. Standard and Extended ACLs provide different levels of control: Standard ACLs filter traffic based on source addresses, while Extended ACLs allow more granular filtering based on source, destination, protocol, and service. Traditional ACLs are stateless and have limitations when applying mirrored controls to client-server traffic. In this lab, no ACL was implemented on the server side toward VLAN 10 because responses to client-initiated connections are directed to ephemeral ports that cannot be known in advance. A stateful control, as provided by a firewall, would instead dynamically allow traffic belonging to previously established sessions. When multiple security policies must be enforced on the same interface and in the same direction, their rules must be combined into a single ACL.
+Static NAT provides a permanent one-to-one address mapping, Dynamic NAT assigns Inside Global addresses from a configured pool, while PAT allows multiple internal hosts to share a single public address.
 
-N.B. – Multipath Routing: In multipath environments, traceroute results require careful interpretation, as successive probes may follow different paths and produce non-intuitive hop sequences. Such behavior does not necessarily indicate a routing or connectivity issue; in this lab, despite the unusual traceroute output, traffic behavior and policy enforcement operated as expected.
+NAT classification should be designed clearly and intentionally. In this lab, translation rules were kept non-overlapping to improve readability, predictability, troubleshooting, and maintainability.
+
+NAT and network access policies serve different purposes: NAT provides address translation, while ACLs determine which traffic is permitted or denied. The Restricted network therefore remains explicitly blocked by the existing access policy and is also excluded from NAT classification.
 
