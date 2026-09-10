@@ -11,6 +11,13 @@ Each laboratory is contained in its own folder and includes:
 - Topology diagram illustrating the network architecture used in the lab.
 - readme.md describing the lab objective, implemented technologies, verification steps, and key takeaways.
 
+## Getting Started
+Cisco Packet Tracer is required to open and run the .pkt laboratory files included in this repository.
+
+<u>Cisco Packet Tracer can be downloaded free of charge from the official Cisco Networking Academy website after creating or signing in to a free Cisco account.</u>
+
+Download Cisco Packet Tracer: https://www.netacad.com/articles/news/download-cisco-packet-tracer
+
 ## Learning Path
 The laboratories in this repository are organized to progressively explore enterprise networking technologies.
 
