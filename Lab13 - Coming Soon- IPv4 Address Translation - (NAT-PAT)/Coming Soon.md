@@ -31,17 +31,19 @@ Lab12 - Network Access Policies with ACLs
 - Cisco Devices
 - Cisco IOS
 - IPv4
-- OSPFv2
-- Named Standard/Extended ACLs
+- Static NAT
+- Dynamic NAT
+- NAT Overload/PAT
+- Named Standard ACLs for NAT Classification
   
 ## Verification
 - show running-config
 - show startup-config
 - show ip access-list
 - show ip interface
-- show ip route
+- show ip NAT translation
+- show ip NAT statistics
 - Verify end-to-end connectivity (ping)
-- Path verification (traceroute)
   
 ## Key Takeaways
 ACL placement and direction are as important as ACL configuration, as they determine where traffic is filtered and how efficiently security policies are enforced. Standard and Extended ACLs provide different levels of control: Standard ACLs filter traffic based on source addresses, while Extended ACLs allow more granular filtering based on source, destination, protocol, and service. Traditional ACLs are stateless and have limitations when applying mirrored controls to client-server traffic. In this lab, no ACL was implemented on the server side toward VLAN 10 because responses to client-initiated connections are directed to ephemeral ports that cannot be known in advance. A stateful control, as provided by a firewall, would instead dynamically allow traffic belonging to previously established sessions. When multiple security policies must be enforced on the same interface and in the same direction, their rules must be combined into a single ACL.
