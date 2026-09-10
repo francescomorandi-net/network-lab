@@ -13,7 +13,7 @@ Il progetto integra in un'unica infrastruttura numerose tecnologie e servizi aff
 ![Lab 19 Topologia](Lab12_Network_Access_Policies_with_ACLs.png)
 
 ### Bozza implementazioni
-![Lab 19 Bozza e implementazioni](Lab12_Network_Access_Policies_with_ACLs_details_policies.png)
+![Lab 19 Bozza e implementazioni](Lab19_Final_Enterprise_Project_Unrefined_Version_Versione_non_rifinita_di_lavoro_Topologia.png)
 
 ### Keys & Passphrase
 ![Lab 19 Keys & Passphrase](Lab19_Final_Enterprise_Project_Unrefined_Version_Versione_non_rifinita_di_lavoro_Key&Passphrase.png)
