@@ -41,8 +41,8 @@ Lab12 - Network Access Policies with ACLs
 - show startup-config
 - show ip access-list
 - show ip interface
-- show ip NAT translation
-- show ip NAT statistics
+- show ip nat translation
+- show ip nat statistics
 - Generate traffic across NAT boundary to verify translation (ping)
   
 ## Key Takeaways
