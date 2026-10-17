@@ -55,7 +55,8 @@ Lab13 - IPv4 Address Translation - (NAT-PAT)
 - show ip nat statistics
 - show standby brief
 - Tracert
-- Generate traffic across NAT boundary to verify translation (ping)
+- Generate traffic across NAT boundary to verify translation (ping) ![Lab 14 Topology](Lab14_failover.svg)
+
   
 ## Key Takeaways
 Static NAT provides a permanent one-to-one address mapping, Dynamic NAT assigns Inside Global addresses from a configured pool, while PAT allows multiple internal hosts to share a single public address.
