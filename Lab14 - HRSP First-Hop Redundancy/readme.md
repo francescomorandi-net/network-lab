@@ -32,7 +32,7 @@ The solution still has some limitations. Dynamic NAT sessions are not synchroniz
 #### Prerequisites 
 Lab13 - IPv4 Address Translation - (NAT-PAT)
 ## Topology
-![Lab 14 Topology](Lab13_IPv4_Address_Translation_NAT_PAT.png)
+![Lab 14 Topology](Lab14 _HSRP_First_Hop_Redundancy.png)
 
 ## Technologies
 - Cisco Devices
