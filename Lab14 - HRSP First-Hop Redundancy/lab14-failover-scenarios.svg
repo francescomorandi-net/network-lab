@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Lab 14 - HSRP Failover Scenarios</title>
+<desc id="desc">Comparison of dynamic NAT/PAT and static NAT forwarding paths under device and WAN switch failures.</desc>
+<rect width="1200" height="650" rx="22" fill="#0b1220"/>
+<text x="50" y="62" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="700" fill="#f8fafc">HSRP Failover Scenarios</text>
+<text x="50" y="93" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#94a3b8">Lab 14  ·  Active forwarding paths under device and WAN segment failures</text>
+<rect x="42" y="123" width="1116" height="456" rx="14" fill="#111c30" stroke="#34445e"/>
+<rect x="42" y="123" width="1116" height="61" rx="14" fill="#1e3049"/>
+<rect x="42" y="165" width="1116" height="19" fill="#1e3049"/>
+<g font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#e2e8f0">
+<text x="70" y="161">FAILURE SCENARIO</text><text x="460" y="161">DYNAMIC NAT / PAT</text><text x="835" y="161">STATIC NAT</text>
+</g>
+<g stroke="#2b3b53" stroke-width="1"><line x1="42" y1="263" x2="1158" y2="263"/><line x1="42" y1="342" x2="1158" y2="342"/><line x1="42" y1="421" x2="1158" y2="421"/><line x1="42" y1="500" x2="1158" y2="500"/><line x1="415" y1="184" x2="415" y2="579"/><line x1="790" y1="184" x2="790" y2="579"/></g>
+<rect x="43" y="264" width="1114" height="78" fill="#17253a"/>
+<rect x="43" y="422" width="1114" height="78" fill="#17253a"/>
+<g font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#f1f5f9">
+<text x="70" y="230">Normal operation</text>
+<text x="70" y="309">SW-DIST failure</text>
+<text x="70" y="388">SW-DIST + SW1 failure</text>
+<text x="70" y="467">EDGE failure</text>
+<text x="70" y="546">EDGE + SW1 failure</text>
+</g>
+<defs>
+<g id="edge"><rect width="103" height="36" rx="9" fill="#155e48" stroke="#34d399"/><text x="51.5" y="24" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#d1fae5">EDGE</text></g>
+<g id="backup"><rect width="103" height="36" rx="9" fill="#174d83" stroke="#60a5fa"/><text x="51.5" y="24" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#dbeafe">BACKUP</text></g>
+<g id="sw1"><rect width="87" height="36" rx="9" fill="#263449" stroke="#64748b"/><text x="43.5" y="24" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">SW1</text></g>
+<g id="sw2"><rect width="87" height="36" rx="9" fill="#74450f" stroke="#fbbf24"/><text x="43.5" y="24" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#fef3c7">SW2</text></g>
+<g id="arrow"><path d="M0 0 H37 M29 -7 L37 0 L29 7" fill="none" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+</defs>
+<g>
+<use href="#edge" x="462" y="205"/><use href="#arrow" x="583" y="223"/><use href="#sw1" x="641" y="205"/>
+<use href="#edge" x="835" y="205"/><use href="#arrow" x="956" y="223"/><use href="#sw1" x="1014" y="205"/>
+<use href="#backup" x="462" y="284"/><use href="#arrow" x="583" y="302"/><use href="#sw1" x="641" y="284"/>
+<use href="#edge" x="835" y="284"/><use href="#arrow" x="956" y="302"/><use href="#sw1" x="1014" y="284"/>
+<use href="#backup" x="462" y="363"/><use href="#arrow" x="583" y="381"/><use href="#sw2" x="641" y="363"/>
+<use href="#edge" x="835" y="363"/><use href="#arrow" x="956" y="381"/><use href="#sw2" x="1014" y="363"/>
+<use href="#backup" x="462" y="442"/><use href="#arrow" x="583" y="460"/><use href="#sw1" x="641" y="442"/>
+<use href="#backup" x="835" y="442"/><use href="#arrow" x="956" y="460"/><use href="#sw1" x="1014" y="442"/>
+<use href="#backup" x="462" y="521"/><use href="#arrow" x="583" y="539"/><use href="#sw2" x="641" y="521"/>
+<use href="#backup" x="835" y="521"/><use href="#arrow" x="956" y="539"/><use href="#sw2" x="1014" y="521"/>
+</g>
+<text x="50" y="614" font-family="Arial,Helvetica,sans-serif" font-size="15" fill="#94a3b8">SW1 / SW2 = independent WAN switches  ·  Paths show the forwarding router and WAN segment</text>
+</svg>
