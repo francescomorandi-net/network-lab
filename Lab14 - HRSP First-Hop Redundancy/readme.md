@@ -2,8 +2,13 @@
 # Lab14 - HRSP First-Hop Redundancy
 
 ## Objective 
-Implement and verify different IPv4 address translation mechanisms on the network edge, integrating Static NAT, Dynamic NAT, and NAT OVERLOAD/PAT into the existing network access policies.
-The lab demonstrates how different internal networks can use different translation methods while maintaining clear and non-overlapping NAT classifications.
+Implement a network redundancy system using HSRP (Hot Standby Router Protocol), with the objective of eliminating single points of failure (SPOFs) associated with the Edge and distribution gateways.
+
+The lab involves integrating redundancy into an existing infrastructure based on the OSPF routing protocol, preserving its original architecture as much as possible.
+
+Redundancy is implemented through the coordination of HSRP, interface tracking, OSPF, and static routing to manage failover of the distribution gateways and the Edge router.
+
+The solution is designed to enable the restoration of connectivity through alternative paths in the event of single or multiple device failures, within the scenarios covered by the lab.
 
 ### Design Note
 The topology builds upon Lab 12 – Network Access Policies with ACLs, preserving the previously implemented traffic policies while introducing IPv4 address translation on the Edge router.
