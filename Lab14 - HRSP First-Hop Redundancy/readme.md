@@ -51,7 +51,7 @@ Lab13 - IPv4 Address Translation - (NAT-PAT)
 - show startup-config
 - show ip access-list
 - show ip interface
-- show ip nat translation
+- show ip nat translations
 - show ip nat statistics
 - show standby brief
 - Tracert
