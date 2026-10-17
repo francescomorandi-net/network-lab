@@ -56,7 +56,7 @@ Lab13 - IPv4 Address Translation - (NAT-PAT)
 - show standby brief
 - Tracert
 - Generate traffic across NAT boundary to verify translation (ping)
-- ![Lab 14 Topology](Lab14_failover.svg)
+![Lab 14 Topology](Lab14_failover.svg)
 
   
 ## Key Takeaways
