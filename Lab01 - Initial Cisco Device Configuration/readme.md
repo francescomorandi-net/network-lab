@@ -1,4 +1,5 @@
-# Lab 01 - Initial Cisco Device Configuration | ### [Complete Lab 01 - Initial Cisco Device Configuration](./Complete%Lab%01%-%Initial%Cisco%Device%Configuration.ptk)
+# Lab 01 - Initial Cisco Device Configuration
+[Complete Lab 01 - Initial Cisco Device Configuration](./Complete%Lab%01%-%Initial%Cisco%Device%Configuration.ptk)
 
 ## Objective 
 Perform the initial configuration of a Cisco device and prepare it for secure administartion and future network deployment.
