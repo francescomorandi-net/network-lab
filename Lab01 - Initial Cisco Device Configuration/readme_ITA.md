@@ -1,7 +1,7 @@
 
 # Lab 01 - Configurazione iniziale di un dispositivo Cisco
 
-[Laboratorio completo 01 - Configurazione iniziale di un dispositivo Cisco](Complete%20Lab%2001%20-%20Initial%20Cisco%20Device%20Configuration.pkt)
+[Complete Lab 01 - Initial Cisco Device Configuration.ptk](Complete%20Lab%2001%20-%20Initial%20Cisco%20Device%20Configuration.pkt)
 
 **N.B.** Cisco Packet Tracer è necessario per aprire questo laboratorio.
 
