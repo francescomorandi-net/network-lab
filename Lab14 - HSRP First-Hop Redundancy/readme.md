@@ -67,9 +67,6 @@ This lab highlighted the fundamental role of HSRP and other First-Hop Redundancy
 It also demonstrated how network redundancy depends not only on individual protocols, but on their effective coordination. By combining HSRP, interface tracking, OSPF, and static routing, it was possible to define specific failover behaviors for different network failure scenarios.
 
 A key takeaway was the ability to influence traffic paths through careful configuration of routing preferences, HSRP priorities, and tracking mechanisms, allowing the network to respond to failures according to the intended design.
-Testing single and multiple device failures was essential to validate the solution, identify potential weaknesses, and verify that alternative paths were actually used as expected.
-
-A more advanced implementation using IP SLA, combined with object tracking, could further improve failure detection by monitoring actual network reachability rather than relying primarily on interface status and routing information, enabling more precise failover decisions.
 
 Testing single and multiple device failures was essential to validate the solution, identify potential weaknesses, and verify that alternative paths were actually used as expected.
 
