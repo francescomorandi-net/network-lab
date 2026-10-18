@@ -1,5 +1,5 @@
 # Lab 02 - Secure Remote Device Management
-[Complete Lab 02 - Secure Remote Device Management.ptk](Complete%20Lab02%20-%20Secure%20Remote%20Device%20Management.ptk) "N.B. Cisco Packet Tracer is required to open this lab"
+[Complete Lab 02 - Secure Remote Device Management.ptk]() "N.B. Cisco Packet Tracer is required to open this lab"
 
 ## Objective 
 Configure a Cisco device for secure remote administration by implementing local user authentication and SSH connetivity
