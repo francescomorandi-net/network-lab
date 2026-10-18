@@ -12,6 +12,7 @@ Configure a Cisco device for secure remote administration by implementing local 
 - Cisco Devices
 - Cisco IOS
 - Secure Remote Administration
+- IPv4
 
 ## Verification
 - show running-config
