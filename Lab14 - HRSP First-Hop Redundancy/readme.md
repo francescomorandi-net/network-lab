@@ -61,8 +61,12 @@ Lab13 - IPv4 Address Translation - (NAT-PAT)
 
   
 ## Key Takeaways
-Static NAT provides a permanent one-to-one address mapping, Dynamic NAT assigns Inside Global addresses from a configured pool, while PAT allows multiple internal hosts to share a single public address.
+This lab highlighted the fundamental role of HSRP and other First-Hop Redundancy Protocols (FHRPs) in maintaining network connectivity when a default gateway becomes unavailable.
 
-NAT classification should be designed clearly and intentionally. In this lab, translation rules were kept non-overlapping to improve readability, predictability, troubleshooting, and maintainability.
+It also demonstrated how network redundancy depends not only on individual protocols, but on their effective coordination. By combining HSRP, interface tracking, OSPF, and static routing, it was possible to define specific failover behaviors for different network failure scenarios.
 
-NAT and network access policies serve different purposes: NAT provides address translation, while ACLs determine which traffic is permitted or denied. The Restricted network therefore remains explicitly blocked by the existing access policy and is also excluded from NAT classification.
+A key takeaway was the ability to influence traffic paths through careful configuration of routing preferences, HSRP priorities, and tracking mechanisms, allowing the network to respond to failures according to the intended design.
+
+Testing single and multiple device failures was essential to validate the solution, identify potential weaknesses, and verify that alternative paths were actually used as expected.
+
+A more advanced implementation using IP SLA, combined with object tracking, could further improve failure detection by monitoring actual network reachability rather than relying primarily on interface status and routing information, enabling more precise failover decisions.
