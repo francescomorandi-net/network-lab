@@ -13,6 +13,7 @@ Set up an IPv4 network with a /24 prefix by assigning IP addresses to the router
 - Cisco Devices
 - Cisco IOS
 - Initial Configuration
+- IPv4
 
 ## Verification
 - show running-config
