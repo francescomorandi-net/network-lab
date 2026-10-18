@@ -2,6 +2,9 @@
 
 ## Objective 
 Configure a Cisco device for secure remote administration by implementing local user authentication and SSH connetivity
+
+[Complete Lab 02 - Secure Remote Device Management.ptk](Complete%20Lab%2002%20-%20Secure%20Remote%20Device%20Management.ptk) "N.B. Cisco Packet Tracer is required to open this lab"
+
  #### Prerequisites
  - Lab01 - Initial Cisco Device Configuration
 
