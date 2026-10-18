@@ -38,7 +38,7 @@ Lab13 - IPv4 Address Translation - (NAT-PAT)
 - Cisco Devices
 - Cisco IOS
 - IPv4
-- HRSP
+- HSRP
 - OSPF
 - Static Route
 - Static NAT
