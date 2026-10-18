@@ -1,5 +1,5 @@
 
-# Lab14 - HRSP First-Hop Redundancy
+# Lab14 - HSRP First-Hop Redundancy
 
 ## Objective 
 Implement a network redundancy system using HSRP (Hot Standby Router Protocol), with the objective of eliminating single points of failure (SPOFs) associated with the Edge and distribution gateways.
