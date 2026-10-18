@@ -53,6 +53,7 @@ Lab13 - IPv4 Address Translation - (NAT-PAT)
 - show ip interface
 - show ip nat translations
 - show ip nat statistics
+- show ip route
 - show standby brief
 - Tracert
 - Generate traffic across NAT boundary to verify translation (ping)
