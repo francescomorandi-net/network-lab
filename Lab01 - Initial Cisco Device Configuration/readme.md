@@ -1,5 +1,5 @@
 # Lab 01 - Initial Cisco Device Configuration
-[Complete Lab 01 - Initial Cisco Device Configuration.ptk](Complete Lab 01 - Initial Cisco Device Configuration.pkt) "N.B. Cisco Packet Tracer is required to open this lab"
+[Complete Lab 01 - Initial Cisco Device Configuration.ptk](Complete%20Lab%2001%20-%20Initial%20Cisco%20Device%20Configuration.pkt) "N.B. Cisco Packet Tracer is required to open this lab"
 
 ## Objective 
 Perform the initial configuration of a Cisco device and prepare it for secure administartion and future network deployment.
